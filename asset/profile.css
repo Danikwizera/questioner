@@ -1,0 +1,86 @@
+.tabview{
+padding: 15px 0;
+background-color: #eee;
+}
+.tabview li {
+	display: inline;
+	list-style-type: none;
+  padding-right: 25px;
+}
+.tabview li a{
+	font-size: 17px;
+	font-weight: bold;
+	color: #000;
+  text-decoration: none;
+}
+.presenta{
+  padding: 5% 5%;
+}
+.questions {
+  width: 100%;
+  padding: 0 10px;
+  margin: 10px 0;
+  display: none;
+}
+.lastcomments{
+  width: 100%;
+  padding: 20px 0;
+  display: none;
+}
+.topquestion{
+  padding: 20px 0;
+}
+.profilecontent{
+  border: 2px solid #eee;
+
+}
+#tabtitle{
+	color: gray;
+	margin: 15px;
+}
+.topqusonmeet{
+	max-width: 100%;
+	max-height: 40px;
+	overflow-y: scroll;
+	background: #f1f1f1;
+	box-sizing: border-box;
+	box-shadow: 0 5px #eee;
+}
+
+@media screen and (max-width: 776px) {
+	.topqusonmeet{
+		max-width: 100%;
+		box-shadow: 0 5px #eee;
+	}
+}
+.creatmeetup{
+		width: 100%;
+}
+.createmeet{
+	height: inherit;
+	padding: 5%;
+	font-size: 20px;
+}
+.forminputgroup{
+    width: 85%;
+}
+.forminput{
+		width: auto;
+    border: none;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+		padding: 5px;
+		background-color: #f1f1f1;
+		margin: 10px;
+}
+#formsubmit{
+	width: auto;
+	padding: 5px;
+	margin: 5px;
+	background-color: #53A831;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+}

@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.topmenu{
+	background-color: #1E90FF;
+	padding: 10px;
+
+}
+.topmenu li{
+	display: inline;
+	font-size: 17px;
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	list-style-type: none;
+}
+#appname{
+	font-size: 30px;
+	color: #000;
+}
+#sign{
+	text-decoration: none;
+	color: #fff;
+	float: right;
+}
+#user{
+	text-decoration: none;
+	color: #fff;
+	float: right;
+}
+.container{
+	margin: 0 10%;
+}
+#homepre{
+	width: 100%;
+	max-height: 380px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#weltext{
+	position: absolute;
+	color: #1E90FF;
+	padding: 10px;
+	font-size: large;
+	font-weight: 800;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 4);
+  max-width: 300px;
+  /*margin: auto;*/
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.date {
+  color: grey;
+  font-size: 22px;
+}
+
+/*.card a {
+}
+
+.card a:hover {
+  opacity: 0.7;
+}*/
+
+#rdmore,#dltadm {
+border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: inherit;
+  font-size: 18px;
+	background: #1E90FF;
+}
+#dltadm{
+	background: #9ACD32;
+}
+.meetuphold{
+	width: 100%;
+}
+.col-left{ float: left; width: 33.3333333333%; }
+.col-right{ float: right; width: 33.3333333333%; }
+.col-center{ display: inline-block; width: 33.3333333333%; 
+}
+
+@media screen and (max-width: 960px) {
+    .col-left{ float: none; width: 100%; }
+    .col-right{ float: none; width: 100%; }
+    .col-center{ display: block; width: 100%; }
+}
+#meetuppimg{
+	width: 100%;
+	height: 160px;
+}
+#singlemeetupcont{
+	margin-top: 60px;
+}
+#singmeetuppimg{
+	width: 100%;
+	height: 250px;
+}
+.postforminput{
+	width: 60%;
+    border: 2px solid #27a9f1;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+		padding: 5px;
+		margin: 10px;
+}
+#postformsubmit{
+	width: auto;
+	border: 2px solid #fff;
+	background: #1E90FF;
+    border-radius: 5px;
+		padding: 10px;
+		color: #fff;
+}
+#singlemeetupcentercol{
+	/*border-right: 2px solid gray;*/
+}
+.meetupquestionssinglep{
+	padding: 0 10px;
+	height: 196px;
+	overflow-y: scroll;
+}
+.singquestioncolcent{
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	height: auto;
+	padding: 5px 5px;
+	margin-bottom: 20px; 
+}
+#upvote,#downvote,#comment,#allcomment{
+	padding: 0 3px;
+	border: none;
+	background: transparent;
+}
+.commentfield{
+	display: none;
+}
+.dallcomments{
+	display: none;
+	padding: 5px 10px;
+	background: gray;
+}
+
+.col-leftg{ float: left; width: 66.6666666666%; } 
+}
+@media screen and (max-width: 960px) {
+    .col-leftg{ float: none; width: 100%; }
+}
+.footer{
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

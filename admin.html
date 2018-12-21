@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="asset/style.css" media="all">
+<link rel="stylesheet" href="asset/profile.css" media="all">
+</head>
+<body>
+<div class="topnav">
+<ul class="topmenu">
+	<li id="appname">QUESTIONER</li>
+	<li><a href="index.html"  id="sign">Log out</a></li>
+</ul>
+</div>
+
+<div class="container">
+  <div class="presenta">
+<h2>Admin Panel ::KWIZERA</h2>
+</div>
+<div class="profilecontent">
+<ul class="tabview">
+	<li id=""><a href="javascript: void feed()" >All Meetups</a></li>
+	<li><a href="javascript: void quest()" >create meetup</a></li>
+</ul>
+
+<div class="topquestion" id="topquestion">
+	 <div class="col-left">
+    	<div class="card">
+  <img src="images/meet.png" alt="People learning"  id="meetuppimg">
+  <h3>People learning</h3>
+  <p class="date">20 December 2018</p>
+	<div class="topqusonmeet">
+		<h5 id=""><u>Do we need to attend this?</u></h5>
+	</div>
+<p id="rdmore"><a id="rdmore" href="singlemeetup.html">Read More</a></p>
+  <p id="dltadm"><a  href="#" id="dltadm">Delete</a></p></div>
+</div>
+ <div class="col-center">
+    	<div class="card">
+  <img src="images/meet2.jpg" alt="People learning"  id="meetuppimg">
+  <h3>People learning</h3>
+  <p class="date">23 December 2018</p>
+	<div class="topqusonmeet">
+		<h5 id=""><u>Do we need to attend this?</u></h5>
+	</div>
+<p id="rdmore"><a id="rdmore" href="singlemeetup.html">Read More</a></p>
+  <p id="dltadm"><a  href="#" id="dltadm">Delete</a></p></div>
+</div>
+ <div class="col-right">
+    	<div class="card">
+  <img src="images/meet3.jpg" alt="People learning"  id="meetuppimg">
+  <h3>People learning</h3>
+  <p class="date">26 December 2018</p>
+	<div class="topqusonmeet">
+		<h5 id=""><u>Do we need to attend this?</u></h5>
+	</div>
+  <p id="rdmore"><a id="rdmore" href="singlemeetup.html">Read More</a></p>
+  <p id="dltadm"><a  href="#" id="dltadm">Delete</a></p>
+</div>
+</div>
+</div>
+<div class="questions" id="questions">
+	<div class="creatmeetup" >
+	<center>  <h3>Create Meetup</h3></center>
+	<form class="createmeet" method="POST" action="" autocomplete="off">
+		<div class="forminputgroup">
+		<input class="forminput" type="text" placeholder="Set the Meetup name" >
+	</div>
+		<div class="forminputgroup">
+		<input class="forminput" type="date" placeholder="Set the Meetup date" >
+		</div>
+		<div class="forminputgroup">
+		<textarea class="forminput" type="text" placeholder="words about the meetup"></textarea>
+		</div>
+	<div class="forminputgroup">
+		 <input class="forminput" type="file" placeholder="image" accept="image/*" >
+	</div>
+	<div class="forminputgroup">
+		<input id="formsubmit" type="submit" name="createMeetUp" value="create Meetup">
+	</div>
+</form>
+	</div>
+</div>
+</div>
+</div>
+
+<script>
+function quest(){
+	document.getElementById("topquestion").style.display="none";
+	document.getElementById("questions").style.display="block";
+}
+function feed(){
+	document.getElementById("topquestion").style.display="block";
+	document.getElementById("questions").style.display="none";
+}
+</script>
+
+</body>
+</html>
